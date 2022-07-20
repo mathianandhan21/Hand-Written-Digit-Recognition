@@ -42,7 +42,7 @@ def get_response():
             # tk.Tk.geometry(f'{app_width}x{app_height}+{int(x)}+{int(y)}')
             self.x = self.y = 0
             # Creating elements
-            self.canvas = tk.Canvas(self, width=300, height=250, bg = "black", cursor="arrow")
+            self.canvas = tk.Canvas(self, width=350, height=270, bg = "black", cursor="arrow")
             self.canvas.pack()
             self.canvas.old_coords = None
             self.label = tk.Label(self, text="Analyzing..", font=("Helvetica", 48))
